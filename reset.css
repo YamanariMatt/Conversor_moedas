@@ -1,0 +1,61 @@
+/* Reset some default styling from browsers */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default input styles */
+input, button, select, textarea {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Set images and other media to be responsive */
+img, picture, video, iframe, object, embed {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Remove the default table borders */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Set up body and background colors */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Set up smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
