@@ -28,14 +28,16 @@
                 <option value="BRL">Real (BRL)</option>
             </select>
             <form class="form" onsubmit="converter(event)">
-          
               <input class="input" type="number" id="valor" placeholder="Digite o valor" />
               <div class="button-container">
                 <button type="submit" class="send-button">CAMBIO</button>
+                <button type="button" id="botaoAtualizar" class="send-button" onclick="atualizarMoedas()">Atualizar taxa</button>
               </div>
             </form>
             <br>
               <span class="c2" id="resultado" >.........................................</span>
+              <br>
+              <span class="c2" id="ultimoAtualizacao"></span>
             </div>
           </div>
           
